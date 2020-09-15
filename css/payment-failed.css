@@ -1,0 +1,90 @@
+.payment-failed-bg
+{
+    background-image: url(../images/blog/blog20.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+    margin-top: 2px;
+}
+.payment-center
+{
+  /* position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; */
+ text-align: center;
+vertical-align: middle;
+padding: 9%; 
+}
+.payment-failed
+{
+    font-size:38.17px;
+    color:#b2211c;
+    font-weight:400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+.payment-success
+{
+    font-size:38.17px;
+    color:#16B64A;
+    font-weight:400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+.payment-failed-order
+{
+    font-size:38.17px;
+    color:#ffffff;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.try-again-btn
+{
+    background-color:#b2211c;
+    font-weight: 300;
+    font-size:18.35px;
+    color:#ffffff;
+    border: none;
+    border-radius: 16px;
+    padding: 5px 52px;
+}
+.view-status-btn
+{
+    background-color:#b2211c;
+    font-weight: 300;
+    font-size:18.35px;
+    color:#ffffff;
+    border: none;
+    border-radius: 19px;
+    padding: 7px 65px;
+    letter-spacing: 1px;
+    margin-top: 14px;
+}
+@media (max-width: 767px) { 
+.payment-failed,.payment-failed-order,.payment-success {
+    font-size: 23.17px;
+    margin-bottom: 16px;
+    line-height: 32px ;  
+}
+.payment-center
+{
+   padding-top: 35%;
+}
+.payment-center .warning-icon-b
+{
+    width: 58px;
+}
+.payment-center
+{
+    padding: 43% 1% 9% 1%;  
+}
+}

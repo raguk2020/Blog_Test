@@ -1,0 +1,113 @@
+.customized-section-banner
+{
+    background-position: center;
+    background-size: cover;
+    height:400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/blog/blog22.jpg);
+}
+.filelabel {
+    /* width: 320px; */
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    display: block;
+    padding: 5px;
+    transition: border 300ms ease;
+    cursor: pointer;
+    text-align: center;
+    margin: 0;
+}
+.filelabel i {
+    display: block;
+    font-size: 25px;
+    
+    text-align: end;
+}
+.filelabel i,
+.filelabel .title {
+  color: grey;
+  transition: 200ms color;
+}
+#FileInput{
+    display:none;
+}
+.form-group
+{
+margin-bottom: 6px;
+}
+.customize-bg
+{
+    background-color: #f3f3f2;
+}
+.overlap-content-img
+{
+   
+    justify-content: flex-end;
+  
+    display: flex;
+}
+.img-box
+{
+    /* height: 373px; 
+    width: 50%;*/
+    margin-top: 8%;
+}
+.content-box
+{
+    width: 48%;
+   height: 86%;
+    background-color: #ffff;
+    padding: 38px;
+    position: absolute;
+    z-index: 1;
+    left: 139px;
+    border-radius: 9px;
+    /* top: -78px; */
+}
+.customize-container
+{
+    padding:6% 8% 6% 1%;
+}
+.img-stack
+{
+    position: relative;
+    width: 100%;
+}
+.add-btn 
+{
+    background-color: #000000;
+    border: none;
+    padding: 5px 17px;
+    border-radius: 0px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.hidden-form-lg
+{
+    display: none;
+}
+.customize-text
+{
+    color: #fff;
+    font-size: 55.61px;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    /* transform: translate(-50%,-50%); */
+}
+@media (max-width: 767px) {
+
+    .hidden-form-lg
+    {
+        display: block;
+    } 
+      
+    .hidden-form-lg1
+    {
+        display: none;
+    } 
+    /* .filelabel {
+       width: 185px;
+    } */
+}
